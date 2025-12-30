@@ -23,7 +23,8 @@
   position: absolute;
   background-color: #555;
   top: -1px;
-  width: 499px;
+  left: -1px;
+  width: 500px;
   height: 102px;
   border: 1px solid #222;
   border-radius: 3px
@@ -33,7 +34,7 @@
   border: 1px #222;
   border-radius: 3px;
   position: absolute;
-  width: 499px;
+  width: 500px;
   height: 0px;
   left: 0px;
 }
@@ -43,7 +44,7 @@
   border-radius: 3px;
   top: 25px;
   position: absolute;
-  width: 499px;
+  width: 500px;
   height: 25px;
   left: -1px;
 }
@@ -53,7 +54,7 @@
   border-radius: 3px;
   top: 50px;
   position: absolute;
-  width: 499px;
+  width: 500px;
   height: 25px;
   left: -1px;
 }
@@ -63,7 +64,7 @@
   border-radius: 3px;
   top: 75px;
   position: absolute;
-  width: 499px;
+  width: 500px;
   height: 25px;
   left: -1px;
 }
@@ -234,6 +235,23 @@
   border: 1px solid #555;
   height: 100px;
   position: absolute;
-  left: 50px;
-  
+  left: 50px;  
+}
+
+#door {
+  border: 3px solid black;
+  height: 160px;
+  width: 125px;
+  position: absolute;
+  top: 237px;
+  left: 185px;
+  background-color: #362312;
+}
+
+#door-knob {
+  border: 10px solid #b87333;
+  border-radius: 15px;
+  position: absolute;
+  top: 80px;
+  left: 90px;
 }
